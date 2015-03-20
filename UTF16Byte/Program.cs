@@ -12,6 +12,7 @@ namespace UTF16Byte
         static void Main(string[] args)
         {
             string s1 = "/移行作業用/MultiByteTest2/MultiByteTest2/アンケート結果ビューアー はない はない/ｃｔｌEnqueteViewer.cs";
+//
             byte[] b1 = Encoding.Unicode.GetBytes(s1);
             int[] b2 = new int[b1.Length];
             for (int i = 0; i < b1.Length;i++ )
